@@ -16,6 +16,7 @@
       "shots.lede": "Дерево папок, превью Markdown, теги, код, вложения и задачи — в одном окне.",
       "shots.welcome": "Стартовая заметка, теги и дерево папок",
       "shots.preview": "Код, цитаты, видео и списки задач в превью",
+      "lightbox.close": "Закрыть",
       "features.title": "Всё, что нужно для заметок",
       "features.lede": "Файловая система как сайдбар. Markdown как данные. Без проприетарной базы.",
       "features.folders.title": "Дерево настоящих папок",
@@ -70,6 +71,7 @@
       "shots.lede": "Folder tree, Markdown preview, tags, code, attachments and tasks — in one window.",
       "shots.welcome": "Welcome note, tags and the folder tree",
       "shots.preview": "Code, quotes, video and task lists in preview",
+      "lightbox.close": "Close",
       "features.title": "Everything a notebook needs",
       "features.lede": "The filesystem is the sidebar. Markdown is the data. No proprietary vault.",
       "features.folders.title": "A tree of real folders",
@@ -130,6 +132,11 @@
     nodes.forEach((el) => {
       const key = el.getAttribute("data-i18n");
       if (pack[key]) el.textContent = pack[key];
+    });
+
+    document.querySelectorAll("[data-i18n-aria]").forEach((el) => {
+      const key = el.getAttribute("data-i18n-aria");
+      if (pack[key]) el.setAttribute("aria-label", pack[key]);
     });
 
     buttons.forEach((btn) => {

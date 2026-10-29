@@ -72,25 +72,41 @@
       </header>
       <div class="shots">
         <figure class="shot">
-          <img
-            src="assets/screenshot-welcome.png"
-            alt="UniBook — Welcome note with folders and Markdown preview"
-            width="1280"
-            height="800"
-            loading="lazy"
-            decoding="async"
-          />
+          <button
+            type="button"
+            class="shot-open"
+            data-lightbox-src="assets/screenshot-welcome.png"
+            data-lightbox-alt="UniBook — Welcome note with folders and Markdown preview"
+            aria-haspopup="dialog"
+          >
+            <img
+              src="assets/screenshot-welcome.png"
+              alt="UniBook — Welcome note with folders and Markdown preview"
+              width="1280"
+              height="800"
+              loading="lazy"
+              decoding="async"
+            />
+          </button>
           <figcaption data-i18n="shots.welcome">Стартовая заметка, теги и дерево папок</figcaption>
         </figure>
         <figure class="shot">
-          <img
-            src="assets/screenshot-preview.png"
-            alt="UniBook — note preview with code, quote, video and tasks"
-            width="1280"
-            height="800"
-            loading="lazy"
-            decoding="async"
-          />
+          <button
+            type="button"
+            class="shot-open"
+            data-lightbox-src="assets/screenshot-preview.png"
+            data-lightbox-alt="UniBook — note preview with code, quote, video and tasks"
+            aria-haspopup="dialog"
+          >
+            <img
+              src="assets/screenshot-preview.png"
+              alt="UniBook — note preview with code, quote, video and tasks"
+              width="1280"
+              height="800"
+              loading="lazy"
+              decoding="async"
+            />
+          </button>
           <figcaption data-i18n="shots.preview">Код, цитаты, видео и списки задач в превью</figcaption>
         </figure>
       </div>
@@ -198,6 +214,24 @@ Plan for <span class="tok-tag">#travel</span> — see <span class="tok-link">[[p
     </p>
   </footer>
 
+  <div class="lightbox" id="lightbox" hidden>
+    <button type="button" class="lightbox-backdrop" data-lightbox-close tabindex="-1" aria-hidden="true"></button>
+    <div
+      class="lightbox-dialog"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lightbox-caption"
+      tabindex="-1"
+    >
+      <button type="button" class="lightbox-close" data-lightbox-close data-i18n-aria="lightbox.close" aria-label="Закрыть">
+        <span aria-hidden="true">×</span>
+      </button>
+      <img class="lightbox-image" id="lightbox-image" alt="" />
+      <p class="lightbox-caption" id="lightbox-caption"></p>
+    </div>
+  </div>
+
   <script src="i18n.js"></script>
+  <script src="lightbox.js"></script>
 </body>
 </html>
