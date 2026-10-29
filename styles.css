@@ -575,6 +575,15 @@ body.lightbox-open {
   font-size: 0.92rem;
 }
 
+.section-feedback {
+  border-top: 1px solid var(--border);
+  padding-top: clamp(3rem, 7vh, 4.5rem);
+}
+
+.section-feedback .section-head {
+  margin-bottom: 1.35rem;
+}
+
 /* —— Footer —— */
 .site-footer {
   max-width: var(--max);
