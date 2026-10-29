@@ -1,6 +1,7 @@
 (() => {
   const dict = {
     ru: {
+      "nav.screenshots": "Скриншоты",
       "nav.features": "Возможности",
       "nav.local": "Локально",
       "nav.download": "Скачать",
@@ -11,6 +12,10 @@
       "hero.cta": "Скачать",
       "hero.secondary": "Возможности",
       "hero.meta": "Кроссплатформенно · Windows · Linux · macOS · UI: ru / en",
+      "shots.title": "Как выглядит UniBook",
+      "shots.lede": "Дерево папок, превью Markdown, теги, код, вложения и задачи — в одном окне.",
+      "shots.welcome": "Стартовая заметка, теги и дерево папок",
+      "shots.preview": "Код, цитаты, видео и списки задач в превью",
       "features.title": "Всё, что нужно для заметок",
       "features.lede": "Файловая система как сайдбар. Markdown как данные. Без проприетарной базы.",
       "features.folders.title": "Дерево настоящих папок",
@@ -50,6 +55,7 @@
         "UniBook — кроссплатформенный блокнот на Markdown для Windows, Linux и macOS. Папки, теги, вложения и плагины. Без обязательного облака.",
     },
     en: {
+      "nav.screenshots": "Screenshots",
       "nav.features": "Features",
       "nav.local": "Local-first",
       "nav.download": "Download",
@@ -60,6 +66,10 @@
       "hero.cta": "Download",
       "hero.secondary": "Features",
       "hero.meta": "Cross-platform · Windows · Linux · macOS · UI: ru / en",
+      "shots.title": "UniBook in action",
+      "shots.lede": "Folder tree, Markdown preview, tags, code, attachments and tasks — in one window.",
+      "shots.welcome": "Welcome note, tags and the folder tree",
+      "shots.preview": "Code, quotes, video and task lists in preview",
       "features.title": "Everything a notebook needs",
       "features.lede": "The filesystem is the sidebar. Markdown is the data. No proprietary vault.",
       "features.folders.title": "A tree of real folders",
