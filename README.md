@@ -1,4 +1,12 @@
 # UniBook site
 
-Landing page for [UniBook](https://github.com/sx66627/unibook), published with GitHub Pages.
+<div style="text-align: center;">
+![Icon](/assets/unibook.png)
+</div>
+
+*Этот репозиторий используется для публикации сайта и релизов для UniBook. А так же для поддержки.*
+
+Если вы обнаружили ошибку или есть предложение по функционалу, создайте issue.
+
+
 
