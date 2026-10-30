@@ -6,7 +6,7 @@
       "nav.local": "Локально",
       "nav.download": "Скачать",
       "nav.releases": "Релизы",
-      "hero.title": "Заметки - заметки в формате Markdown.",
+      "hero.title": "Заметки в формате Markdown.",
       "hero.lede":
         "Кроссплатформенное десктоп-приложение для Windows, Linux и macOS: папки, теги, вложения, просмотр и правка. Облако не обязательно. Функционал расширяется плагинами.",
       "hero.cta": "Скачать",
@@ -69,7 +69,7 @@
       "nav.local": "Local-first",
       "nav.download": "Download",
       "nav.releases": "Releases",
-      "hero.title": "Notes - notes in Markdown format.",
+      "hero.title": "Notes in Markdown format.",
       "hero.lede":
         "A cross-platform desktop app for Windows, Linux and macOS: folders, tags, attachments, preview and edit. No cloud required. Extend it with plugins.",
       "hero.cta": "Download",
