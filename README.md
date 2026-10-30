@@ -1,7 +1,9 @@
 # UniBook site
 
 <div style="text-align: center;">
-![Icon](/assets/unibook.png)
+
+![Icon](assets/unibook.png)
+
 </div>
 
 *Этот репозиторий используется для публикации сайта и релизов для UniBook. А так же для поддержки.*
