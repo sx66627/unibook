@@ -8,11 +8,8 @@
         "en": "Import and export notes for Joplin, Notable and Obsidian",
         "ru": "Импорт и экспорт заметок Joplin, Notable и Obsidian"
       },
-      "version": "0.1.1",
       "api": 1,
-      "downloadUrl": "https://github.com/sx66627/unibook/releases/download/uni-converter-v0.1.1/uni-converter.ubplugin",
-      "homepage": "https://sx66627.github.io/unibook/",
-      "sha256": "8534b4fa39924c6d216e27f7d9f2a15474fd8f3be9676467c580bddb7d928de2"
+      "homepage": "https://sx66627.github.io/unibook/"
     },
     {
       "id": "uni-reminder",
@@ -21,11 +18,8 @@
         "en": "Scheduled reminders with system notifications and sound",
         "ru": "Отложенные напоминания с системными уведомлениями и звуком"
       },
-      "version": "0.1.0",
       "api": 1,
-      "downloadUrl": "https://github.com/sx66627/unibook/releases/download/uni-reminder-v0.1.0/uni-reminder.ubplugin",
-      "homepage": "https://sx66627.github.io/unibook/",
-      "sha256": "abc7d95a35afb38474c29d869cd5e694e5f74d2f6ddda8acbcab7efee1a584fc"
+      "homepage": "https://sx66627.github.io/unibook/"
     }
   ]
 }
