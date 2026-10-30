@@ -1,14 +1,31 @@
 # UniBook site
 
-<div style="text-align: center;">
-
 ![Icon](assets/unibook.png)
 
-</div>
+[RU]
 
 *Этот репозиторий используется для публикации сайта и релизов для UniBook. А так же для поддержки.*
 
-Если вы обнаружили ошибку или есть предложение по функционалу, создайте issue.
+## Описание и возможности программы
+> Можно ознакомиться на https://sx66627.github.io/unibook/
 
+## Скачать
+> В разделе [Релизы](https://github.com/sx66627/unibook/releases)
 
+## Нашли ошибку? Есть предложение по функционалу?
+> Создайте [issue](https://github.com/sx66627/unibook/issues).
 
+---
+
+[EN]
+
+*This repository is used for publishing the UniBook website and releases, as well as for providing support.*
+
+## Program description and features
+> You can learn more at https://sx66627.github.io/unibook/
+
+## Download
+> Available in the [Releases](https://github.com/sx66627/unibook/releases) section.
+
+## Found a bug? Have a feature request?
+> Please create an [issue](https://github.com/sx66627/unibook/issues).
