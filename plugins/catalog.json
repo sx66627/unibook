@@ -20,6 +20,37 @@
       },
       "api": 1,
       "homepage": "https://sx66627.github.io/unibook/"
+    },
+    {
+      "id": "uni-ai-connector",
+      "name": "AI Connector",
+      "description": {
+        "en": "Connect OpenAI-compatible and Ollama APIs with optional HTTP/SOCKS proxies",
+        "ru": "Подключение API нейросетей (OpenAI / Ollama) с опциональными прокси HTTP/SOCKS"
+      },
+      "api": 1,
+      "homepage": "https://sx66627.github.io/unibook/"
+    },
+    {
+      "id": "uni-git-sync",
+      "name": "Git sync",
+      "description": {
+        "en": "Track changes and sync the notes folder with a connected git repository",
+        "ru": "Отслеживание изменений и синхронизация папки заметок с подключённым git-репозиторием"
+      },
+      "api": 1,
+      "homepage": "https://sx66627.github.io/unibook/"
+    },
+    {
+      "id": "uni-security-ai",
+      "name": "Security with AI",
+      "description": {
+        "en": "Scan notes for secrets via a local AI server before save and git sync (requires AI Connector)",
+        "ru": "Проверка заметок на секреты через локальный ИИ перед сохранением и git sync (нужен AI Connector)"
+      },
+      "api": 1,
+      "homepage": "https://sx66627.github.io/unibook/",
+      "dependsOn": ["uni-ai-connector"]
     }
   ]
 }
