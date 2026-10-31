@@ -51,6 +51,47 @@
       "api": 1,
       "homepage": "https://sx66627.github.io/unibook/",
       "dependsOn": ["uni-ai-connector"]
+    },
+    {
+      "id": "uni-ai-writer",
+      "name": "AI Writer",
+      "description": {
+        "en": "Write and edit Markdown notes with AI Connector; can fetch web pages as an agent",
+        "ru": "Создание и правка Markdown-заметок через AI Connector; может подтягивать веб-страницы как агент"
+      },
+      "api": 1,
+      "homepage": "https://sx66627.github.io/unibook/",
+      "dependsOn": ["uni-ai-connector"]
+    },
+    {
+      "id": "uni-web-saver",
+      "name": "Web Saver",
+      "description": {
+        "en": "Save a web page as a Markdown note (optional images, proxy, Via AI via AI Connector)",
+        "ru": "Сохранение веб-страницы в Markdown-заметку (картинки, прокси, Via AI через AI Connector)"
+      },
+      "api": 1,
+      "homepage": "https://sx66627.github.io/unibook/"
+    },
+    {
+      "id": "uni-yt-transcription",
+      "name": "YouTube Transcription",
+      "description": {
+        "en": "Fetch YouTube captions (ru/en) as a Markdown note; optional proxy and AI cleanup via AI Connector",
+        "ru": "Субтитры YouTube (ru/en) в Markdown-заметку; опционально прокси и очистка через AI Connector"
+      },
+      "api": 1,
+      "homepage": "https://sx66627.github.io/unibook/"
+    },
+    {
+      "id": "uni-themes",
+      "name": "Themes",
+      "description": {
+        "en": "Choose a color theme or build your own with live preview",
+        "ru": "Выбор цветовой темы или своя тема с живым превью"
+      },
+      "api": 1,
+      "homepage": "https://sx66627.github.io/unibook/"
     }
   ]
 }

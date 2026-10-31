@@ -4,12 +4,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>UniBook — Markdown notes that stay yours</title>
-  <meta name="description" content="UniBook — кроссплатформенный блокнот на Markdown для Windows, Linux и macOS. Папки, теги, вложения и плагины. Без обязательного облака." />
+  <meta name="description" content="UniBook — локальный блокнот для заметок. Папки, теги, вложения и плагины. Работает на Windows, Linux и macOS. Без обязательного облака." />
   <meta name="theme-color" content="#0b0d12" />
   <link rel="icon" href="assets/icon-512.png" type="image/png" />
   <link rel="apple-touch-icon" href="assets/icon-512.png" />
   <meta property="og:title" content="UniBook" />
-  <meta property="og:description" content="Cross-platform Markdown notes for Windows, Linux and macOS. Folders, tags, attachments and plugins. No cloud required." />
+  <meta property="og:description" content="UniBook is a local notebook for your notes. Folders, tags, attachments and plugins. Windows, Linux and macOS. No cloud required." />
   <meta property="og:image" content="assets/unibook.png" />
   <meta property="og:type" content="website" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -33,6 +33,7 @@
     <nav class="topnav" aria-label="Primary">
       <a href="#screenshots" data-i18n="nav.screenshots">Скриншоты</a>
       <a href="#features" data-i18n="nav.features">Возможности</a>
+      <a href="#plugins" data-i18n="nav.plugins">Плагины</a>
       <a href="#local" data-i18n="nav.local">Локально</a>
       <a href="#download" data-i18n="nav.download">Скачать</a>
     </nav>
@@ -52,8 +53,8 @@
     <section class="hero">
       <div class="hero-copy">
         <p class="brand-hero" aria-label="UniBook">Uni<span>Book</span></p>
-        <h1 data-i18n="hero.title">Заметки в формате Markdown.</h1>
-        <p class="lede" data-i18n="hero.lede">Кроссплатформенное десктоп-приложение для Windows, Linux и macOS: папки, теги, вложения, просмотр и правка. Облако не обязательно. Функционал расширяется плагинами.</p>
+        <h1 data-i18n="hero.title">Ваш локальный блокнот</h1>
+        <p class="lede" data-i18n="hero.lede">Удобные заметки на компьютере: папки, теги, вложения, поиск и тёмный интерфейс. Работает без облака. Нужные возможности можно добавить через плагины.</p>
         <div class="cta-row">
           <a class="btn btn-primary" href="#download">
             <i class="fa-solid fa-download" aria-hidden="true"></i>
@@ -89,7 +90,7 @@
       <header class="section-head">
         <p class="section-kicker"><i class="fa-solid fa-image" aria-hidden="true"></i><span data-i18n="shots.kicker">UI</span></p>
         <h2 data-i18n="shots.title">Как выглядит UniBook</h2>
-        <p data-i18n="shots.lede">Дерево папок, превью Markdown, теги, код, вложения и задачи — в одном окне.</p>
+        <p data-i18n="shots.lede">Слева — ваши папки и заметки, справа — удобный просмотр и редактирование.</p>
       </header>
       <div class="shots">
         <figure class="shot">
@@ -136,44 +137,94 @@
     <section class="section" id="features">
       <header class="section-head">
         <p class="section-kicker"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i><span data-i18n="features.kicker">Features</span></p>
-        <h2 data-i18n="features.title">Всё, что нужно для заметок</h2>
-        <p data-i18n="features.lede">Файловая система как сайдбар. Markdown как данные. Без проприетарной базы.</p>
+        <h2 data-i18n="features.title">Всё важное — под рукой</h2>
+        <p data-i18n="features.lede">Простой и понятный блокнот: заметки, папки, поиск и удобное оформление.</p>
       </header>
       <ul class="feature-list">
         <li>
           <span class="feature-key">folders</span>
-          <h3 data-i18n="features.folders.title">Дерево настоящих папок</h3>
-          <p data-i18n="features.folders.body">Создавайте, переименовывайте и перемещайте заметки. Сайдбар — это диск, а не виртуальная библиотека.</p>
+          <h3 data-i18n="features.folders.title">Папки и заметки</h3>
+          <p data-i18n="features.folders.body">Слева — дерево ваших папок и заметок. Создавайте, переименовывайте и переносите всё как удобно.</p>
         </li>
         <li>
-          <span class="feature-key">edit</span>
-          <h3 data-i18n="features.edit.title">Просмотр и правка</h3>
-          <p data-i18n="features.edit.body">Рендер Markdown, исходник и тулбар: жирный, списки, заголовки, код, ссылки и картинки.</p>
+          <span class="feature-key">view</span>
+          <h3 data-i18n="features.edit.title">Просмотр и редактирование</h3>
+          <p data-i18n="features.edit.body">Читайте заметку в удобном виде или переключайтесь в правку. Есть панель форматирования, смайлики и подсказки.</p>
         </li>
         <li>
-          <span class="feature-key">#tags</span>
-          <h3 data-i18n="features.tags.title">Теги в самом файле</h3>
-          <p data-i18n="features.tags.body">YAML frontmatter и inline #теги. Поиск по тегу или обычному тексту по всему дереву.</p>
-        </li>
-        <li>
-          <span class="feature-key">[[wiki]]</span>
-          <h3 data-i18n="features.wiki.title">Вики-ссылки</h3>
-          <p data-i18n="features.wiki.body">[[Заметка]] или [[путь/Заметка|Подпись]] — переход между заметками в один клик.</p>
+          <span class="feature-key">search</span>
+          <h3 data-i18n="features.tags.title">Теги и поиск</h3>
+          <p data-i18n="features.tags.body">Отмечайте заметки тегами и быстро находите нужное по тексту или по тегу.</p>
         </li>
         <li>
           <span class="feature-key">attach</span>
-          <h3 data-i18n="features.attach.title">Вложения рядом</h3>
-          <p data-i18n="features.attach.body">Картинки и файлы хранятся рядом в папке с заметкой. Вставка из буфера — Ctrl+V.</p>
+          <h3 data-i18n="features.attach.title">Вложения</h3>
+          <p data-i18n="features.attach.body">Картинки и файлы хранятся рядом с заметкой. Можно вставить изображение из буфера обмена.</p>
+        </li>
+        <li>
+          <span class="feature-key">links</span>
+          <h3 data-i18n="features.wiki.title">Связи между заметками</h3>
+          <p data-i18n="features.wiki.body">Связывайте заметки между собой и переходите по ссылкам в один клик.</p>
         </li>
         <li>
           <span class="feature-key">tasks</span>
-          <h3 data-i18n="features.tasks.title">Задачи и код</h3>
-          <p data-i18n="features.tasks.body">Кликабельные чекбоксы, подсветка кода, видео и даты чипами прямо в превью.</p>
+          <h3 data-i18n="features.tasks.title">Списки дел и многое другое</h3>
+          <p data-i18n="features.tasks.body">Отмечайте задачи галочками, вставляйте код, видео и даты прямо в заметку.</p>
         </li>
         <li>
-          <span class="feature-key">plugins</span>
-          <h3 data-i18n="features.plugins.title">Плагины</h3>
-          <p data-i18n="features.plugins.body">Расширяйте функционал приложения плагинами — под свои сценарии и рабочий процесс.</p>
+          <span class="feature-key">lang</span>
+          <h3 data-i18n="features.lang.title">Русский и английский</h3>
+          <p data-i18n="features.lang.body">Интерфейс на двух языках — выберите тот, который вам удобнее.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section section-plugins" id="plugins">
+      <header class="section-head">
+        <p class="section-kicker"><i class="fa-solid fa-puzzle-piece" aria-hidden="true"></i><span data-i18n="plugins.kicker">Plugins</span></p>
+        <h2 data-i18n="plugins.title">Плагины под ваши задачи</h2>
+        <p data-i18n="plugins.lede">Нужные возможности подключаются отдельно — только то, чем вы реально пользуетесь.</p>
+      </header>
+      <ul class="feature-list">
+        <li>
+          <span class="feature-key">ai</span>
+          <h3 data-i18n="plugins.ai.title">Нейросети</h3>
+          <p data-i18n="plugins.ai.body">Подключайте популярные ИИ-сервисы и используйте их прямо в заметках.</p>
+        </li>
+        <li>
+          <span class="feature-key">writer</span>
+          <h3 data-i18n="plugins.writer.title">AI Writer</h3>
+          <p data-i18n="plugins.writer.body">Пишите и дорабатывайте заметки с помощью искусственного интеллекта.</p>
+        </li>
+        <li>
+          <span class="feature-key">web</span>
+          <h3 data-i18n="plugins.web.title">Сохранение из интернета</h3>
+          <p data-i18n="plugins.web.body">Сохраняйте страницы сайта в заметку или получайте краткое изложение с помощью ИИ.</p>
+        </li>
+        <li>
+          <span class="feature-key">safe</span>
+          <h3 data-i18n="plugins.security.title">Безопасность с ИИ</h3>
+          <p data-i18n="plugins.security.body">Проверяйте заметки на случайно оставленные пароли и другие секреты.</p>
+        </li>
+        <li>
+          <span class="feature-key">yt</span>
+          <h3 data-i18n="plugins.yt.title">Расшифровка YouTube</h3>
+          <p data-i18n="plugins.yt.body">Превращайте субтитры видео в заметку — при желании с помощью нейросети.</p>
+        </li>
+        <li>
+          <span class="feature-key">sync</span>
+          <h3 data-i18n="plugins.git.title">Синхронизация</h3>
+          <p data-i18n="plugins.git.body">Синхронизируйте папку заметок с Git-репозиторием, если вам это нужно.</p>
+        </li>
+        <li>
+          <span class="feature-key">import</span>
+          <h3 data-i18n="plugins.import.title">Импорт и экспорт</h3>
+          <p data-i18n="plugins.import.body">Переносите заметки из Joplin, Notable и Obsidian — и обратно.</p>
+        </li>
+        <li>
+          <span class="feature-key">extra</span>
+          <h3 data-i18n="plugins.extra.title">Темы и напоминания</h3>
+          <p data-i18n="plugins.extra.body">Меняйте оформление под себя и ставьте напоминания с уведомлениями.</p>
         </li>
       </ul>
     </section>
@@ -181,43 +232,28 @@
     <section class="section section-local" id="local">
       <header class="section-head">
         <p class="section-kicker"><i class="fa-solid fa-hard-drive" aria-hidden="true"></i><span data-i18n="local.kicker">Local-first</span></p>
-        <h2 data-i18n="local.title">Ваши файлы остаются вашими</h2>
-        <p data-i18n="local.lede">Каждая заметка — .md в выбранной папке. Открывайте в любом редакторе, синхронизируйте через git или сетевой диск.</p>
+        <h2 data-i18n="local.title">Всё хранится у вас</h2>
+        <p data-i18n="local.lede">Заметки лежат обычными файлами на вашем компьютере. Папку хранения можно выбрать самому. Облако не обязательно.</p>
       </header>
-      <div class="code-panel" aria-hidden="false">
-        <div class="code-panel-bar">
-          <span></span><span></span><span></span>
-          <code>notes/travel/japan.md</code>
-        </div>
-<pre><code><span class="tok-punct">---</span>
-<span class="tok-key">title</span><span class="tok-punct">:</span> <span class="tok-str">Tokyo notes</span>
-<span class="tok-key">tags</span><span class="tok-punct">:</span> <span class="tok-punct">[</span><span class="tok-str">travel</span><span class="tok-punct">,</span> <span class="tok-str">ideas</span><span class="tok-punct">]</span>
-<span class="tok-punct">---</span>
-
-<span class="tok-h">#</span> Tokyo notes
-
-Plan for <span class="tok-tag">#travel</span> — see <span class="tok-link">[[packing]]</span>.
-
-<span class="tok-li">-</span> <span class="tok-check">[x]</span> Book flights
-<span class="tok-li">-</span> <span class="tok-check">[ ]</span> Reserve hotel
-
-<span class="tok-date">@[date](2026-10-29)</span>
-</code></pre>
-      </div>
+      <ul class="local-points">
+        <li data-i18n="local.p1">Данные остаются на вашем устройстве</li>
+        <li data-i18n="local.p2">Можно открыть заметки в другом редакторе</li>
+        <li data-i18n="local.p3">Легко сделать резервную копию папки</li>
+      </ul>
     </section>
 
     <section class="section" id="download">
       <header class="section-head">
         <p class="section-kicker"><i class="fa-solid fa-download" aria-hidden="true"></i><span data-i18n="download.kicker">Download</span></p>
         <h2 data-i18n="download.title">Скачать UniBook</h2>
-        <p data-i18n="download.lede">Кроссплатформенное приложение: для каждой платформы своя версия.</p>
+        <p data-i18n="download.lede">Работает на Windows, Linux и macOS — выберите версию для своей системы.</p>
       </header>
       <div class="download-row">
         <a class="dl" href="https://github.com/sx66627/unibook/releases/latest">
           <span class="dl-icon" aria-hidden="true"><i class="fa-brands fa-windows"></i></span>
           <span class="dl-copy">
             <strong>Windows</strong>
-            <span data-i18n="download.win">UniBook.exe · WebView2</span>
+            <span data-i18n="download.win">Версия для Windows</span>
           </span>
           <i class="fa-solid fa-arrow-down dl-arrow" aria-hidden="true"></i>
         </a>
@@ -225,7 +261,7 @@ Plan for <span class="tok-tag">#travel</span> — see <span class="tok-link">[[p
           <span class="dl-icon" aria-hidden="true"><i class="fa-brands fa-linux"></i></span>
           <span class="dl-copy">
             <strong>Linux</strong>
-            <span data-i18n="download.linux">x64 · GTK4 + WebKitGTK</span>
+            <span data-i18n="download.linux">Версия для Linux</span>
           </span>
           <i class="fa-solid fa-arrow-down dl-arrow" aria-hidden="true"></i>
         </a>
@@ -233,30 +269,30 @@ Plan for <span class="tok-tag">#travel</span> — see <span class="tok-link">[[p
           <span class="dl-icon" aria-hidden="true"><i class="fa-brands fa-apple"></i></span>
           <span class="dl-copy">
             <strong>macOS</strong>
-            <span data-i18n="download.mac">12+ · WebKit</span>
+            <span data-i18n="download.mac">Версия для macOS</span>
           </span>
           <i class="fa-solid fa-arrow-down dl-arrow" aria-hidden="true"></i>
         </a>
       </div>
-      <p class="download-note" data-i18n="download.note">Сборки публикуются в GitHub Releases.</p>
+      <p class="download-note" data-i18n="download.note">Скачайте установку из раздела релизов.</p>
     </section>
 
     <section class="section section-feedback" id="feedback">
       <header class="section-head">
         <p class="section-kicker"><i class="fa-solid fa-bug" aria-hidden="true"></i><span data-i18n="feedback.kicker">Feedback</span></p>
         <h2 data-i18n="feedback.title">Нашли ошибку? Сообщите о ней</h2>
-        <p data-i18n="feedback.lede">Предложения по улучшению — туда же. Откройте issue на GitHub.</p>
+        <p data-i18n="feedback.lede">Предложения по улучшению — туда же.</p>
       </header>
       <a class="btn btn-ghost" href="https://github.com/sx66627/unibook/issues">
         <i class="fa-brands fa-github" aria-hidden="true"></i>
-        <span data-i18n="feedback.cta">Создать issue</span>
+        <span data-i18n="feedback.cta">Написать нам</span>
       </a>
     </section>
   </main>
 
   <footer class="site-footer">
     <p class="footer-brand">Uni<span>Book</span></p>
-    <p data-i18n="footer.tag">Markdown-заметки, которые остаются вашими.</p>
+    <p data-i18n="footer.tag">Локальный блокнот, который остаётся вашим.</p>
     <p class="footer-links">
       <a href="https://github.com/sx66627/unibook/releases" data-i18n="footer.releases">Релизы</a>
       <a href="https://github.com/sx66627/unibook/issues" data-i18n="footer.issues">Ошибки и предложения</a>

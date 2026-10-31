@@ -594,6 +594,10 @@ body.lightbox-open {
   max-width: 40rem;
 }
 
+.section-plugins {
+  border-top: 1px solid var(--border);
+}
+
 .section-local {
   border-block: 1px solid var(--border);
   background:
@@ -601,64 +605,34 @@ body.lightbox-open {
     linear-gradient(180deg, rgba(255, 255, 255, 0.018), transparent 70%);
 }
 
-.code-panel {
-  max-width: 40rem;
-  border: 1px solid var(--border-strong);
-  border-radius: var(--radius);
-  background: rgba(16, 20, 28, 0.94);
-  overflow: hidden;
-  box-shadow:
-    0 24px 60px rgba(0, 0, 0, 0.38),
-    inset 0 1px 0 rgba(255, 255, 255, 0.04);
-  animation: rise 0.9s ease 0.08s both;
-}
-
-.code-panel-bar {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.7rem 0.9rem;
-  border-bottom: 1px solid var(--border);
-  background: rgba(255, 255, 255, 0.03);
-}
-
-.code-panel-bar span {
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.16);
-}
-
-.code-panel-bar span:nth-child(1) { background: #f07178; }
-.code-panel-bar span:nth-child(2) { background: #e6c07b; }
-.code-panel-bar span:nth-child(3) { background: #7fd99a; }
-
-.code-panel-bar code {
-  margin-left: 0.55rem;
-  font-family: var(--mono);
-  font-size: 0.78rem;
-  color: var(--muted);
-}
-
-.code-panel pre {
+.local-points {
+  list-style: none;
   margin: 0;
-  padding: 1.15rem 1.2rem 1.35rem;
-  overflow-x: auto;
-  font-family: var(--mono);
-  font-size: 0.86rem;
-  line-height: 1.7;
-  color: #d7deea;
+  padding: 0;
+  display: grid;
+  gap: 0.85rem;
+  max-width: 40rem;
 }
 
-.tok-punct { color: #7f8899; }
-.tok-key { color: #c4b8ff; }
-.tok-str { color: #9ad4ff; }
-.tok-h { color: var(--accent); font-weight: 500; }
-.tok-tag { color: #b9a8ff; }
-.tok-link { color: var(--accent-2); }
-.tok-li { color: #7f8899; }
-.tok-check { color: #7fd99a; }
-.tok-date { color: #e6c07b; }
+.local-points li {
+  position: relative;
+  padding: 0.95rem 1.1rem 0.95rem 2.75rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.035), rgba(255, 255, 255, 0.01));
+  color: var(--text);
+}
+
+.local-points li::before {
+  content: "\f00c";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #c4b8ff;
+}
 
 .download-row {
   display: grid;
@@ -850,7 +824,6 @@ body.lightbox-open {
   .hero-copy,
   .hero-visual,
   .section-head,
-  .code-panel,
   .shot,
   .hero-art,
   .atmosphere-orb {
