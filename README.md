@@ -1,6 +1,10 @@
 # UniBook site
 
+<div align="center">
+
 ![Icon](assets/unibook256.png)
+
+</div>
 
 [RU]
 
