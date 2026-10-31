@@ -1,6 +1,6 @@
 # UniBook site
 
-![Icon](assets/unibook.png)
+![Icon](assets/unibook256.png)
 
 [RU]
 
