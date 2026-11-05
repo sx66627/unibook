@@ -7,7 +7,7 @@
       "nav.local": "Локально",
       "nav.download": "Скачать",
       "nav.releases": "Релизы",
-      "hero.title": "Ваш локальный блокнот",
+      "hero.title": "Блокнот в формате Markdown",
       "hero.lede":
         "Удобные заметки на компьютере: папки, теги, вложения, поиск и тёмный интерфейс. Работает без облака. Нужные возможности можно добавить через плагины.",
       "hero.cta": "Скачать",
@@ -94,7 +94,7 @@
       "nav.local": "Local",
       "nav.download": "Download",
       "nav.releases": "Releases",
-      "hero.title": "Your local notebook",
+      "hero.title": "A notebook in Markdown format",
       "hero.lede":
         "Handy notes on your computer: folders, tags, attachments, search and a dark interface. Works without the cloud. Add what you need with plugins.",
       "hero.cta": "Download",
